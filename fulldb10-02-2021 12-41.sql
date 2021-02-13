@@ -1,7 +1,7 @@
 #
 # TABLE STRUCTURE FOR: communities
 #
-
+USE vk;
 DROP TABLE IF EXISTS `communities`;
 
 CREATE TABLE `communities` (
