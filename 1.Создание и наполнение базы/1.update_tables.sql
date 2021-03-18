@@ -80,8 +80,9 @@ UPDATE status SET name = 'На складе' WHERE id = 4;
 UPDATE status SET name = 'Снято с эксплуатации' WHERE id = 5;
 UPDATE status SET name = CONCAT('Тестовый статус-', LPAD(FLOOR(RAND()*(6-1)),3,'0')) WHERE id > 5;
 
-
-SELECT * FROM users u ;
+-- изменил сервис каналов на 1 (Сеть)
+SELECT * FROM channels ;
+UPDATE channels SET services_id = 1;
 
 
 
